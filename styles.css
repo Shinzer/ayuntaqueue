@@ -1,0 +1,224 @@
+html{
+    padding-left: 17px;
+  }
+  body{
+    padding-top: 95px;
+    padding-left: 10px;
+  }
+  
+  .ayunlogo{
+    height: 45px;
+  }
+  
+  .bilogo{
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    height: 80px;
+    margin-top: -110px;
+    background-color: #99C496;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .firstcont{
+    background-image: linear-gradient(rgba(123, 228, 141, 0.5), rgba(11, 5, 5, 0.5)), url(img/newlogin.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .firstcont h1{
+    margin: auto;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  
+  .firstcont h1, .firstcont h3, .firstcont p{
+    color: white;
+  }
+  
+  .motdcont{
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    max-width: 500px;
+    margin-top: 100px;
+  }
+  
+  .motdcont p, h3{
+    color: black;
+  }
+  
+  .formcont{
+    background-color: #2F323D;
+    border-radius: 10px;
+    padding: 50px;
+    opacity: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btncont{
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    max-width: 500px;
+  }
+  .btncont button{
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    max-width: 200px;
+    height: 62px;
+    background-color: #4CB96B;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    margin-top: 20px;
+  }
+  .btncont button:hover{
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #BDE7B9;
+  }
+
+  .confirmcont{
+    background-color: #2F323D;
+    border-radius: 10px;
+    margin: auto;
+    color: white;
+    padding: 50px;
+    opacity: 90%;
+    font-weight: 700;
+    max-width: 500px;
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+  
+
+  .confirmcont button{
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    max-width: 200px;
+    height: 62px;
+    background-color: #4CB96B;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    margin-top: 20px;
+  }
+  .confirmcont button:hover{
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #BDE7B9;
+  }
+  
+  select{
+    width: 100px;
+    background-color: #3C4149;
+    height: 38px;
+    margin: 0 auto;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    color: white;
+  }
+  
+  input[type="tel"], input[type="email"], input[type="password"], input[type="number"] {
+    color: white;
+    background-color: #3C4149;
+    width: 300px ;
+    height: 38px;
+    margin: 0 auto;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 3px;
+    padding-left: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+  }
+  
+  
+  .descrip{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    padding-bottom: 20px;
+    margin: -70px;
+    border: none;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ikon{
+    margin-left: 75px;
+    margin-right: 20px;
+    color: #95BF92;
+  }
+  
+  .infocont p{
+    margin-left: 76px;
+    font-size: 18px;
+  }
+  
+  .popupo{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+  }
+  
+  .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+  }
+  
+  .checkmark{
+    width: 100px;
+    margin-top: -50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+  }
+  
+  .popupo h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+  }
+  
+  .popupo button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #000c0049;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+  }
